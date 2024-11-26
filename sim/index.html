@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FastBreak Tech</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header class="bg-dark text-white text-center py-3">
+        <h1>FastBreak Tech</h1>
+    </header>
+
+    <main class="container mt-4">
+        <!-- Sessão de Placas de Vídeo -->
+<section id="placas-de-video">
+    <h2>Placas de Vídeo</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <!-- Produto 1 -->
+        <div class="col">
+            <div class="card">
+                <div id="carouselPlaca1" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://via.placeholder.com/150" class="d-block w-100" alt="RTX 4090">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://via.placeholder.com/150" class="d-block w-100" alt="RTX 4090 - Vista 2">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body text-center">
+                    <h5 class="card-title">RTX 4090</h5>
+                    <p class="card-text">Preço: R$ 12.000,00</p>
+                    <button class="btn btn-primary add-to-cart" data-name="RTX 4090" data-price="12000">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Produto 2 -->
+        <div class="col">
+            <div class="card">
+                <div id="carouselPlaca2" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://via.placeholder.com/150" class="d-block w-100" alt="RTX 3080">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://via.placeholder.com/150" class="d-block w-100" alt="RTX 3080 - Vista 2">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body text-center">
+                    <h5 class="card-title">RTX 3080</h5>
+                    <p class="card-text">Preço: R$ 7.500,00</p>
+                    <button class="btn btn-primary add-to-cart" data-name="RTX 3080" data-price="7500">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Produto 3 -->
+        <div class="col">
+            <div class="card">
+                <div id="carouselPlaca3" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://via.placeholder.com/150" class="d-block w-100" alt="RTX 3070">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://via.placeholder.com/150" class="d-block w-100" alt="RTX 3070 - Vista 2">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body text-center">
+                    <h5 class="card-title">RTX 3070</h5>
+                    <p class="card-text">Preço: R$ 5.000,00</p>
+                    <button class="btn btn-primary add-to-cart" data-name="RTX 3070" data-price="5000">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        <!-- Sessão de Processadores -->
+<section id="processadores">
+    <h2>Processadores</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <!-- Produto 1 -->
+        <div class="col">
+            <div class="card">
+                <div id="carouselProc1" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://via.placeholder.com/150" class="d-block w-100" alt="Intel i9-13900K">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://via.placeholder.com/150" class="d-block w-100" alt="Intel i9-13900K - Vista 2">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body text-center">
+                    <h5 class="card-title">Intel i9-13900K</h5>
+                    <p class="card-text">Preço: R$ 4.500,00</p>
+                    <button class="btn btn-primary add-to-cart" data-name="Intel i9-13900K" data-price="4500">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Produto 2 -->
+        <div class="col">
+            <div class="card">
+                <div id="carouselProc2" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://via.placeholder.com/150" class="d-block w-100" alt="AMD Ryzen 9 7900X">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://via.placeholder.com/150" class="d-block w-100" alt="AMD Ryzen 9 7900X - Vista 2">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body text-center">
+                    <h5 class="card-title">AMD Ryzen 9 7900X</h5>
+                    <p class="card-text">Preço: R$ 3.800,00</p>
+                    <button class="btn btn-primary add-to-cart" data-name="AMD Ryzen 9 7900X" data-price="3800">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Produto 3 -->
+        <div class="col">
+            <div class="card">
+                <div id="carouselProc3" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://via.placeholder.com/150" class="d-block w-100" alt="Intel i7-12700K">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://via.placeholder.com/150" class="d-block w-100" alt="Intel i7-12700K - Vista 2">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body text-center">
+                    <h5 class="card-title">Intel i7-12700K</h5>
+                    <p class="card-text">Preço: R$ 3.200,00</p>
+                    <button class="btn btn-primary add-to-cart" data-name="Intel i7-12700K" data-price="3200">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+       <!-- Sessão de Memórias RAM -->
+<section id="memorias-ram">
+    <h2>Memórias RAM</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <!-- Produto 1 -->
+        <div class="col">
+            <div class="card">
+                <div id="carouselRam1" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://via.placeholder.com/150" class="d-block w-100" alt="Memória RAM 16GB DDR4">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://via.placeholder.com/150" class="d-block w-100" alt="Memória RAM 16GB DDR4 - Vista 2">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body text-center">
+                    <h5 class="card-title">Memória RAM 16GB DDR4</h5>
+                    <p class="card-text">Preço: R$ 400,00</p>
+                    <button class="btn btn-primary add-to-cart" data-name="Memória RAM 16GB DDR4" data-price="400">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Produto 2 -->
+        <div class="col">
+            <div class="card">
+                <div id="carouselRam2" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://via.placeholder.com/150" class="d-block w-100" alt="Memória RAM 32GB DDR4">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://via.placeholder.com/150" class="d-block w-100" alt="Memória RAM 32GB DDR4 - Vista 2">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body text-center">
+                    <h5 class="card-title">Memória RAM 32GB DDR4</h5>
+                    <p class="card-text">Preço: R$ 800,00</p>
+                    <button class="btn btn-primary add-to-cart" data-name="Memória RAM 32GB DDR4" data-price="800">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Produto 3 -->
+        <div class="col">
+            <div class="card">
+                <div id="carouselRam3" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://via.placeholder.com/150" class="d-block w-100" alt="Memória RAM 8GB DDR4">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://via.placeholder.com/150" class="d-block w-100" alt="Memória RAM 8GB DDR4 - Vista 2">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body text-center">
+                    <h5 class="card-title">Memória RAM 8GB DDR4</h5>
+                    <p class="card-text">Preço: R$ 250,00</p>
+                    <button class="btn btn-primary add-to-cart" data-name="Memória RAM 8GB DDR4" data-price="250">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- Outras seções de produtos seguem o mesmo padrão -->
+        
+    </main>
+
+    <!-- Botão para abrir o carrinho -->
+    <div class="text-center mt-4">
+        <button class="btn btn-success" id="view-cart">Ver Carrinho</button>
+    </div>
+</main>
+
+<!-- Modal do Carrinho -->
+<div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="cartModalLabel">Carrinho</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <ul id="cart-items" class="list-group mb-3"></ul>
+                <p class="text-end"><strong>Total: R$ <span id="cart-total">0,00</span></strong></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" id="clear-cart">Limpar Carrinho</button>
+                <button type="button" class="btn btn-primary" id="finalize-purchase">Finalizar Compra</button> <br>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Rodapé -->
+
+<footer class="bg-dark text-white py-3">
+    <div class="container text-center">
+        <p>&copy; 2024 FastBreak Tech. Todos os direitos reservados.</p>
+        <ul class="footer-links">
+            <li><a href="#placas-de-video">Placas de Vídeo</a></li>
+            <li><a href="#processadores">Processadores</a></li>
+            <li><a href="#memorias-ram">Memórias RAM</a></li>
+        </ul>
+        <p>Desenvolvido por <a href="#" class="text-white fw-bold">FastBreak Tech</a></p>
+    </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

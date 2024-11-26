@@ -1,0 +1,75 @@
+/* ícone de carrinho */
+#view-cart {
+    font-size: 1.1rem;
+    background-color: #b81717;
+    border-color: #b81717;
+}
+
+/* Estilos para a seção do conteúdo */
+section h2 {
+    margin-top: 40px;
+    font-size: 2rem;
+    color: #343a40;
+    border-bottom: 2px solid #b81717;
+    padding-bottom: 10px;
+}
+
+.card-body {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #b81717;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+/* Ajuste para a imagem no carrossel e cards */
+.card img {
+    object-fit: cover;
+    height: 150px;
+    width: 100%;
+}
+
+.carousel-inner {
+    max-height: 150px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    background-color: #343a40; /* Fundo escuro */
+    color: #fff; /* Texto branco */
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0; /* Remove espaçamento extra */
+    font-size: 1.0rem; /* Tamanho do texto */
+}
+
+footer .footer-links {
+    list-style: none; /* Remove as bolinhas */
+    padding: 0; /* Remove o padding padrão */
+    margin: 20px 0; /* Espaço entre os links */
+    display: flex;
+    justify-content: center; /* Centraliza os itens */
+    gap: 15px; /* Espaço entre os links */
+}
+
+footer .footer-links li {
+    display: inline;
+}
+
+footer .footer-links a {
+    color: #979797; /* Cor do link */
+    text-decoration: none; /* Remove sublinhado */
+    font-size: 0.9rem;
+    transition: color 0.3s ease; /* Efeito ao passar o mouse */
+}
+
+footer .footer-links a:hover {
+    color: #ff0707; /* Cor ao passar o mouse */
+}
